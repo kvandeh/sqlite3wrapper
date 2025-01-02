@@ -2,6 +2,9 @@ This module is meant to be used in small to medium scale applications and makes 
 Changing every DataBase, Table and Row object to classes.
 
 # Quickstart
+```cmd
+pip install data3
+```
 1. To get the entire DataBase use:
    ```py
    with data.open() as db:
