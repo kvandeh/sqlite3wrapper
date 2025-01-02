@@ -3,7 +3,7 @@ Changing every DataBase, Table and Row object to classes.
 
 # Quickstart
 1. To get the entire DataBase use:
-   ```
+   ```py
    with data.open() as db:
      print(db.getColumns()) 
    ```
